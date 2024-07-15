@@ -1,0 +1,68 @@
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.crypto-select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  height: 150px;
+  overflow-y: auto; /* Enable vertical scroll */
+  text-align: left;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.checkbox-label input {
+  margin-right: 10px;
+}
+
+.dialog-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.submit-button,
+.close-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #009879;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover,
+.close-button:hover {
+  background-color: #007a63;
+}

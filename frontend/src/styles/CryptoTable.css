@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+
+.table-container {
+  text-align: center;
+  width: 80vw;
+  margin-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 900; /* Boldest weight for the header */
+}
+
+.dialog-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #009879;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dialog-button:hover {
+  background-color: #007a63;
+}
+
+.error-message {
+  color: #ff3cac;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.crypto-table th,
+.crypto-table td {
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400; /* Regular weight for table content */
+}
+
+.crypto-table thead th {
+  background-color: #009879;
+  color: #ffffff;
+  font-weight: 700; /* Bold weight for table headers */
+  font-size: 1.1rem;
+}
+
+.crypto-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  transition: background-color 0.3s ease;
+  font-size: 0.8rem;
+}
+
+.crypto-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  /* color: white; */
+}
+
+.crypto-table tbody tr:hover {
+  color: white;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  
+}
+
+.crypto-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.crypto-image {
+  width: 42px;
+  height: 42px;
+}
